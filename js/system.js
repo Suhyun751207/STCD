@@ -1,20 +1,10 @@
-// const firebaseConfig = {
-//     apiKey: "AIzaSyCXtP_K6pkRo-ioLUsI76DozgDsQxHgY0k",
-//     authDomain: "smc-project-22e7e.firebaseapp.com",
-//     databaseURL: "https://smc-project-22e7e-default-rtdb.firebaseio.com",
-//     projectId: "smc-project-22e7e",
-//     storageBucket: "smc-project-22e7e.appspot.com",
-//     messagingSenderId: "137462129835",
-//     appId: "1:137462129835:web:297698f42045962dcf43ee",
-//     measurementId: "G-6V2SYEQ8DR"
-// };
 const firebaseConfig = {
-    apiKey: "AIzaSyA_Co_CZAlcv33j3ByLSoHif_e8NBFypGo",
-    authDomain: "html1-project.firebaseapp.com",
-    databaseURL: "https://html1-project-default-rtdb.firebaseio.com",
-    projectId: "html1-project",
-    storageBucket: "html1-project.appspot.com",
-    messagingSenderId: "905909966724",
-    appId: "1:905909966724:web:eb02b9499f80f90557efd1",
-    measurementId: "G-NX0Z7VEZS1"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 };
